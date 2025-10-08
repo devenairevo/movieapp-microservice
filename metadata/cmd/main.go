@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"log"
+	"net/http"
+
 	"movieexample.com/metadata/internal/controller/metadata"
 	httphandler "movieexample.com/metadata/internal/handler/http"
 	"movieexample.com/metadata/internal/repository/memory"
-	"net/http"
 )
 
 func main() {
