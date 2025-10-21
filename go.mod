@@ -2,7 +2,10 @@ module movieexample.com
 
 go 1.25.2
 
-require github.com/hashicorp/consul/api v1.32.4
+require (
+	github.com/hashicorp/consul/api v1.32.4
+	google.golang.org/protobuf v1.36.10
+)
 
 require (
 	github.com/armon/go-metrics v0.4.1 // indirect
